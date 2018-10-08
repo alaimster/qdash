@@ -1,7 +1,7 @@
 <template>
   <q-layout-drawer
     v-model="drawerState"
-    width="260"
+    width="250"
     id='app-left-menu'
   >
     <div id="app-brand">
@@ -17,7 +17,7 @@
 
           <q-list-header :key="item.name" v-if="item.header">{{ item.header }}</q-list-header>
 
-          <q-collapsible v-else-if="item.items" group="menu" :key="item.title" :icon="item.icon" :label="item.title">
+          <q-collapsible duration='750' collapse-icon="chevron_right" v-else-if="item.items" group="menu" :key="item.title" :icon="item.icon" :label="item.title">
             <q-item :key="subItem.name" v-for="subItem in item.items">
               <q-item-main :label="subItem.title"></q-item-main>
             </q-item>
@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import menu from './../../statics/menu'
+import menu from '../statics/menu'
 import VuePerfectScrollbar from 'vue-perfect-scrollbar'
 
 export default {
@@ -66,19 +66,37 @@ export default {
   #app-left-menu
     overflow: hidden
     width: 250px;
-    background #323745
+    background #303240
+    box-shadow 0 0 10px 0 rgba(0,0,0,.5)
     #app-brand
-      height 64px
+      height 70px
       display flex
       justify-content: center
       align-items center
       color #fff
+      background #2c2e3e
     .q-item
       transition: .3s cubic-bezier(.25,.8,.5,1)
       cursor pointer
+      min-height: 45px;
       &:hover
-        font-weight: 700
+        .q-item-label, .q-icon
+          color #fff
+      .q-item-side-left
+        min-width: 24px !important;
+        .q-icon
+          font-size 18px !important
+      .q-item-label
+        font-size 14px !important
+      .q-item-side-right
+        .q-item-icon.q-icon
+          font-size 16px
+          transition .75s cubic-bezier(0.25, 0.8, 0.5, 1) !important
+          &.rotate-180
+            transform rotate(90deg) !important
     .q-collapsible-opened .q-collapsible-inner > .q-item
+      .q-item-label, .q-icon
+        color #fff
       &:before
         transform: scaleX(1);
     .q-list > .q-item, .q-collapsible-inner > .q-item
@@ -100,8 +118,10 @@ export default {
         transition: transform .2s ease-in-out;
         width: 210px;
         z-index: -1;
-    .q-item-main, .q-icon, .q-list-header
-      color #fff
+    .q-icon
+      color #bdc1dc
+    .q-item-main, .q-list-header
+      color #bdc1dc
     .scroll-area
       height: calc(100vh - 48px)
       overflow: auto

@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import AppTopMenu from './../components/layout/AppTopMenu'
-import AppLeftMenu from './../components/layout/AppLeftMenu'
+import AppTopMenu from './AppTopMenu'
+import AppLeftMenu from './AppLeftMenu'
 
 export default {
   components: {

@@ -2,12 +2,12 @@ const Menu = [
   { header: 'Apps' },
   {
     title: 'Dashboard',
-    icon: 'dashboard',
+    icon: 'mdi-view-dashboard-outline',
     name: 'Dashboard'
   },
   {
     title: 'Chat',
-    icon: 'chat_bubble',
+    icon: 'mdi-message-outline',
     target: '_blank',
     name: 'Chat'
   },
@@ -15,7 +15,7 @@ const Menu = [
     title: 'Inbox',
     name: 'Mail',
     target: '_blank',
-    icon: 'email'
+    icon: 'mdi-email-outline'
   },
   {
     title: 'Media',
