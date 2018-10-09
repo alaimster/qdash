@@ -7,9 +7,9 @@
     >
       <q-btn
         flat
-        round
         @click="drawerState = !drawerState"
         aria-label="Menu"
+        class="full-height no-border"
       >
         <q-icon size="1.7em" color="black" name="menu"></q-icon>
       </q-btn>
@@ -45,11 +45,13 @@ export default {
 }
 </script>
 <style lang="stylus">
+  @import './../css/themes/common.variables.styl'
+
   #app-header
     box-shadow 0 4px 15px 0 rgba(0,0,0,.09)
     #app-header-toolbar
-      padding 4px 20px
+      padding 0 20px !important
       height: 70px;
       .q-icon
-        color #4c5165 !important
+        color $secondary_mega_light !important
 </style>

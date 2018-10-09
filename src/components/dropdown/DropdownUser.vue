@@ -1,9 +1,14 @@
 <template>
-  <div>
-    <q-btn @click="showingUser = !showingUser" flat round>
+  <div class="full-height">
+    <q-btn id="user-button" :class="{ active: userIsActive}" class="full-height no-border" @click="showingUser = !showingUser" flat>
       <img src="./../../statics/icons/user.png" class="q-item-avatar">
     </q-btn>
-    <q-popover id="dropdown-user" fit v-model="showingUser">
+    <q-popover
+      @show="userIsActive = true"
+      @hide="userIsActive = false"
+      id="dropdown-user"
+      fit
+      v-model="showingUser">
       <div id='user-dropdown-container'>
         <div id="user-dropdown-container__info">
           <img src="./../../statics/icons/user.png">
@@ -36,22 +41,30 @@
 
 <script>
 export default {
-  data () {
-    return {
-      showingUser: false
-    }
-  }
+  data: () => ({
+    showingUser: false,
+    userIsActive: false
+  })
 }
 </script>
 
 <style lang="stylus">
+  @import './../../css/themes/common.variables.styl'
+
+  #user-button
+    &:focus
+      .q-focus-helper
+        background initial
+    &.active
+      .q-focus-helper
+        background currentColor
   #dropdown-user
-    margin-top 14px
+    border-radius 0
     #user-dropdown-container
       padding 15px
       display: flex
       flex-direction column
-      background #303240
+      background $secondary_dark
       &__info
         display: flex
         flex-direction row
@@ -59,17 +72,16 @@ export default {
           width: 60px
           height 60px
           background #fff
-          border-radius 4px
+          border-radius 2px
+        .name, .email, .company
+          line-height 20px
         .name
           font-size 20px
-          color #90a4ae
-          line-height 20px
+          color $secondary_ultra_light
         .email
           font-size 14px
-          color #90a4ae
-          line-height 20px
+          color $secondary_ultra_light
         .company
-          color #90a4ae
           font-size 14px
-          line-height 20px
+          color $secondary_mega_light
 </style>

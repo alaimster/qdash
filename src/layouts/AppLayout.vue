@@ -23,6 +23,8 @@ export default {
 </script>
 
 <style lang="stylus">
+  @import './../css/themes/common.variables.styl'
+
   #app-view
-    background #f4f7fa
+    background $secondary_ultra_light
 </style>

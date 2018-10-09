@@ -1,9 +1,15 @@
 <template>
-  <div>
-    <q-btn @click="showingNotification = !showingNotification" class="q-ml-md" flat round>
+  <div class="full-height">
+    <q-btn id="notification-button" @click="showingNotification = !showingNotification" class="full-height no-border" :class="{ active: notificationIsActive}" flat>
       <q-icon size="1.7em" color="black" name="mdi-bell"></q-icon>
     </q-btn>
-    <q-popover id="dropdown-notification" fit v-model="showingNotification">
+    <q-popover
+      @show="notificationIsActive = true"
+      @hide="notificationIsActive = false"
+      id="dropdown-notification"
+      fit
+      v-model="showingNotification"
+    >
       <q-list
         separator
         link
@@ -47,17 +53,25 @@
 
 <script>
 export default {
-  data () {
-    return {
-      showingNotification: false
-    }
-  }
+  data: () => ({
+    showingNotification: false,
+    notificationIsActive: false
+  })
 }
 </script>
 
 <style lang="stylus">
+  @import './../../css/themes/common.variables.styl'
+
+  #notification-button
+    &:focus
+      .q-focus-helper
+        background initial
+    &.active
+      .q-focus-helper
+        background currentColor
   #dropdown-notification
-    margin-top 14px
+    border-radius 0
     max-width 400px !important
     &-list
       padding 0 !important
@@ -66,7 +80,10 @@ export default {
         color #90a4ae
       &-header
         padding 20px !important
+        letter-spacing: 0.5px;
+        font-size: 16px;
         text-transform: uppercase
-        background #303240
-        color #90a4ae
+        font-weight 600
+        background $secondary_dark
+        color $secondary_ultra_light
 </style>

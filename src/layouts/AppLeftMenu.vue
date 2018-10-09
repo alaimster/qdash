@@ -13,7 +13,7 @@
         no-border
         inset-delimiter
       >
-        <template v-for="item in menus">
+        <template v-for="item in menu">
 
           <q-list-header :key="item.name" v-if="item.header">{{ item.header }}</q-list-header>
 
@@ -41,7 +41,7 @@ import VuePerfectScrollbar from 'vue-perfect-scrollbar'
 
 export default {
   data: () => ({
-    menus: menu,
+    menu: menu,
     scrollSettings: {
       maxScrollbarLength: 160
     }
@@ -63,10 +63,12 @@ export default {
 </script>
 
 <style lang="stylus">
+  @import './../css/themes/common.variables.styl'
+
   #app-left-menu
-    overflow: hidden
-    width: 250px;
-    background #303240
+    overflow hidden
+    width 250px
+    background $secondary
     box-shadow 0 0 10px 0 rgba(0,0,0,.5)
     #app-brand
       height 70px
@@ -74,20 +76,21 @@ export default {
       justify-content: center
       align-items center
       color #fff
-      background #2c2e3e
+      background $secondary_dark
     .q-item
       transition: .3s cubic-bezier(.25,.8,.5,1)
       cursor pointer
       min-height: 45px;
       &:hover
         .q-item-label, .q-icon
-          color #fff
+          color $primary
       .q-item-side-left
         min-width: 24px !important;
         .q-icon
           font-size 18px !important
       .q-item-label
-        font-size 14px !important
+        font-size 16px !important
+        font-weight 300
       .q-item-side-right
         .q-item-icon.q-icon
           font-size 16px
@@ -96,7 +99,7 @@ export default {
             transform rotate(90deg) !important
     .q-collapsible-opened .q-collapsible-inner > .q-item
       .q-item-label, .q-icon
-        color #fff
+        color $primary
       &:before
         transform: scaleX(1);
     .q-list > .q-item, .q-collapsible-inner > .q-item
@@ -107,7 +110,7 @@ export default {
         background-color: rgba(0,0,0,.2);
         border-radius: 0 100px 100px 0;
         bottom: 0;
-        box-shadow: 0 4px 15px 0 rgba(0,0,0,.09);
+        box-shadow: 0 4px 15px 0 rgba(0,0,0,.1);
         content: "";
         left: 0;
         position: absolute;
@@ -119,9 +122,12 @@ export default {
         width: 210px;
         z-index: -1;
     .q-icon
-      color #bdc1dc
-    .q-item-main, .q-list-header
-      color #bdc1dc
+      color $secondary_ultra_light
+    .q-item-main
+      color $secondary_ultra_light
+    .q-list-header
+      color $secondary_mega_light
+      text-transform: uppercase
     .scroll-area
       height: calc(100vh - 48px)
       overflow: auto
