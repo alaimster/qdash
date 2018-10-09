@@ -119,7 +119,7 @@ export default {
         transform: scaleX(0);
         transform-origin: left;
         transition: transform .2s ease-in-out;
-        width: 210px;
+        width: 85%;
         z-index: -1;
     .q-icon
       color $secondary_ultra_light

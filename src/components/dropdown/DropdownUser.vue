@@ -22,15 +22,15 @@
       <q-list
         link
       >
-        <q-item v-ripple>
+        <q-item v-ripple class="q-ma-sm">
           <q-item-side icon="mdi-account-circle"></q-item-side>
           <q-item-main label="Minha Conta"></q-item-main>
         </q-item>
-        <q-item v-ripple>
+        <q-item v-ripple class="q-ma-sm">
           <q-item-side icon="mdi-wallet"></q-item-side>
           <q-item-main label="Meus Bonus"></q-item-main>
         </q-item>
-        <q-item v-ripple>
+        <q-item v-ripple class="q-ma-sm">
           <q-item-side icon="mdi-power"></q-item-side>
           <q-item-main label="Sair"></q-item-main>
         </q-item>
@@ -61,7 +61,7 @@ export default {
   #dropdown-user
     border-radius 0
     #user-dropdown-container
-      padding 15px
+      padding 20px
       display: flex
       flex-direction column
       background $secondary_dark
@@ -69,12 +69,10 @@ export default {
         display: flex
         flex-direction row
         img
-          width: 60px
-          height 60px
+          width: 80px
+          height 80px
           background #fff
-          border-radius 2px
-        .name, .email, .company
-          line-height 20px
+          border-radius 4px
         .name
           font-size 20px
           color $secondary_ultra_light
@@ -84,4 +82,15 @@ export default {
         .company
           font-size 14px
           color $secondary_mega_light
+    .q-list
+      background $secondary_ultra_light
+    .q-list-link > .q-item
+      padding 10px 15px
+      background #fff
+      border-radius 4px
+      box-shadow 0 3px 2px 0 rgba(0,0,0,.02)
+    .q-list-link > .q-item, .q-list-link > .q-item .q-icon
+      color $secondary !important
+    .q-list-link > .q-item:hover, .q-list-link > .q-item:hover .q-icon
+      color $primary !important
 </style>

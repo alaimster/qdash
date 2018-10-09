@@ -11,12 +11,16 @@
       v-model="showingNotification"
     >
       <q-list
-        separator
         link
         id="dropdown-notification-list"
       >
-        <q-list-header id="dropdown-notification-list-header">Notificações</q-list-header>
-        <q-item v-ripple>
+        <q-list-header
+          id="dropdown-notification-list-header"
+          class="row  justify-between items-center"
+        >Notificações
+          <q-chip square color="primary">4 NOVAS</q-chip>
+        </q-list-header>
+        <q-item v-ripple class="q-ma-sm">
           <q-item-side>
               <q-icon class="q-item-avatar" size="1.4rem" name="mdi-wallet-travel"></q-icon>
           </q-item-side>
@@ -26,7 +30,7 @@
             <q-item-tile sublabel><small>10:22</small></q-item-tile>
           </q-item-main>
         </q-item>
-        <q-item v-ripple>
+        <q-item v-ripple class="q-ma-sm">
           <q-item-side>
             <q-icon class="q-item-avatar" size="1.4rem" name="mdi-wallet-travel"></q-icon>
           </q-item-side>
@@ -36,7 +40,7 @@
             <q-item-tile sublabel><small>10:22</small></q-item-tile>
           </q-item-main>
         </q-item>
-        <q-item v-ripple>
+        <q-item v-ripple class="q-ma-sm">
           <q-item-side>
             <q-icon class="q-item-avatar" size="1.4rem" name="mdi-wallet-travel"></q-icon>
           </q-item-side>
@@ -71,10 +75,20 @@ export default {
       .q-focus-helper
         background currentColor
   #dropdown-notification
-    border-radius 0
     max-width 400px !important
     &-list
+      background $secondary_ultra_light
       padding 0 !important
+      .q-item
+        background #fff
+        border-radius 4px
+        box-shadow 0 3px 2px 0 rgba(0,0,0,.02)
+        .q-item-label
+          color $secondary
+        .q-item-sublabel
+          color $secondary_mega_light
+        &:hover
+          color $primary
       .q-item-avatar
         background #303240
         color #90a4ae

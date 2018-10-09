@@ -53,5 +53,5 @@ export default {
       padding 0 20px !important
       height: 70px;
       .q-icon
-        color $secondary_mega_light !important
+        color $secondary !important
 </style>
