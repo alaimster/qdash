@@ -21,6 +21,7 @@
       </div>
       <q-list
         link
+        class="no-border"
       >
         <q-item v-ripple class="q-ma-sm">
           <q-item-side icon="mdi-account-circle"></q-item-side>
@@ -59,7 +60,7 @@ export default {
       .q-focus-helper
         background currentColor
   #dropdown-user
-    border-radius 0
+    box-shadow 0 4px 15px 0 rgba(0,0,0,0.09)
     #user-dropdown-container
       padding 20px
       display: flex
@@ -83,10 +84,11 @@ export default {
           font-size 14px
           color $secondary_mega_light
     .q-list
-      background $secondary_ultra_light
+      background #fff
+      padding 0
     .q-list-link > .q-item
       padding 10px 15px
-      background #fff
+      background $secondary_ultra_light
       border-radius 4px
       box-shadow 0 3px 2px 0 rgba(0,0,0,.02)
     .q-list-link > .q-item, .q-list-link > .q-item .q-icon

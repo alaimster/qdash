@@ -13,6 +13,7 @@
       <q-list
         link
         id="dropdown-notification-list"
+        class="no-border"
       >
         <q-list-header
           id="dropdown-notification-list-header"
@@ -75,12 +76,13 @@ export default {
       .q-focus-helper
         background currentColor
   #dropdown-notification
+    box-shadow 0 4px 15px 0 rgba(0,0,0,0.09)
     max-width 400px !important
     &-list
-      background $secondary_ultra_light
+      background #fff
       padding 0 !important
       .q-item
-        background #fff
+        background $secondary_ultra_light
         border-radius 4px
         box-shadow 0 3px 2px 0 rgba(0,0,0,.02)
         .q-item-label
