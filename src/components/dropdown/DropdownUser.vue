@@ -61,6 +61,7 @@ export default {
         background currentColor
   #dropdown-user
     box-shadow 0 4px 15px 0 rgba(0,0,0,0.09)
+    border-radius: 0;
     #user-dropdown-container
       padding 20px
       display: flex

@@ -27,4 +27,5 @@ export default {
 
   #app-view
     background $secondary_ultra_light
+    padding-top 80px !important
 </style>

@@ -78,6 +78,7 @@ export default {
   #dropdown-notification
     box-shadow 0 4px 15px 0 rgba(0,0,0,0.09)
     max-width 400px !important
+    border-radius: 0;
     &-list
       background #fff
       padding 0 !important

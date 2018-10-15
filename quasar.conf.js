@@ -41,6 +41,16 @@ module.exports = function (ctx) {
     // framework: 'all' --- includes everything; for dev only!
     framework: {
       components: [
+        'QField',
+        'QDatetime',
+        'QRadio',
+        'QSearch',
+        'QAutocomplete',
+        'QInput',
+        'QOptionGroup',
+        'QCard',
+        'QCardMain',
+        'QScrollArea',
         'QChip',
         'QItemTile',
         'QPopover',
@@ -59,7 +69,9 @@ module.exports = function (ctx) {
         'QListHeader',
         'QItem',
         'QItemMain',
-        'QItemSide'
+        'QItemSide',
+        'QBreadcrumbs',
+        'QBreadcrumbsEl'
       ],
       directives: [
         'Ripple'

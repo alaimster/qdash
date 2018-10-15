@@ -1,0 +1,962 @@
+[
+  {
+    "value": "AAX",
+    "label": "Aeroporto Romeu Zema",
+    "city": "Araxa"
+  },
+  {
+    "value": "AFL",
+    "label": "Aeroporto Piloto Osvaldo Marques Dias",
+    "city": "Alta Floresta"
+  },
+  {
+    "value": "AIR",
+    "label": "Aeroporto Aripuanã",
+    "city": "Aripuana"
+  },
+  {
+    "value": "AJU",
+    "label": "Aeroporto Santa Maria",
+    "city": "Aracaju"
+  },
+  {
+    "value": "APQ",
+    "label": "Aeroporto Arapiraca",
+    "city": "Arapiraca"
+  },
+  {
+    "value": "AQA",
+    "label": "Aeroporto Araraquara",
+    "city": "Araracuara"
+  },
+  {
+    "value": "ARU",
+    "label": "Aeroporto Araçatuba",
+    "city": "Aracatuba"
+  },
+  {
+    "value": "ATM",
+    "label": "Aeroporto Altamira",
+    "city": "Altamira"
+  },
+  {
+    "value": "AUX",
+    "label": "Aeroporto Araguaína",
+    "city": "Araguaina"
+  },
+  {
+    "value": "BAT",
+    "label": "Aeroporto Chafei Amsei",
+    "city": "Barretos"
+  },
+  {
+    "value": "BAU",
+    "label": "Aeroporto Bauru",
+    "city": "Bauru"
+  },
+  {
+    "value": "BAZ",
+    "label": "Aeroporto Barcelos",
+    "city": "Barcelos"
+  },
+  {
+    "value": "BEL",
+    "label": "Aeroporto Internacional Val de Cans/Júlio Cezar Ribeiro",
+    "city": "Belem"
+  },
+  {
+    "value": "BFH",
+    "label": "Aeroporto Bacacheri",
+    "city": "Curitiba"
+  },
+  {
+    "value": "BGX",
+    "label": "Aeroporto Comandante Gustavo Kraemer",
+    "city": "Bage"
+  },
+  {
+    "value": "BJP",
+    "label": "Aeroporto Estadual Arthur Siqueira",
+    "city": "Braganca Paulista"
+  },
+  {
+    "value": "BNU",
+    "label": "Aeroporto Blumenau",
+    "city": "Blumenau"
+  },
+  {
+    "value": "BPS",
+    "label": "Aeroporto Porto Seguro",
+    "city": "Porto Seguro"
+  },
+  {
+    "value": "BRA",
+    "label": "Aeroporto Barreiras",
+    "city": "Barreiras"
+  },
+  {
+    "value": "BSB",
+    "label": "Aeroporto Internacional Presidente Juscelino Kubistschek",
+    "city": "Brasilia"
+  },
+  {
+    "value": "BVB",
+    "label": "Aeroporto Atlas Brasil Cantanhede",
+    "city": "Boa Vista"
+  },
+  {
+    "value": "BVH",
+    "label": "Aeroporto Brigadeiro Camarão",
+    "city": "Vilhena"
+  },
+  {
+    "value": "BVS",
+    "label": "Aeroporto Breves",
+    "city": "Breves"
+  },
+  {
+    "value": "BYO",
+    "label": "Aeroporto Bonito",
+    "city": "Bointo"
+  },
+  {
+    "value": "BZC",
+    "label": "Aeroporto Umberto Modiano",
+    "city": "Buzios"
+  },
+  {
+    "value": "CAC",
+    "label": "Aeroporto Cascavel",
+    "city": "Cascavel"
+  },
+  {
+    "value": "CAF",
+    "label": "Aeroporto Carauari",
+    "city": "Carauari"
+  },
+  {
+    "value": "CAU",
+    "label": "Aeroporto Caruaru",
+    "city": "Caruaru"
+  },
+  {
+    "value": "CAW",
+    "label": "Aeroporto Bartolomeu Lisandro",
+    "city": "Campos"
+  },
+  {
+    "value": "CCI",
+    "label": "Aeroporto Concórdia",
+    "city": "Concordia"
+  },
+  {
+    "value": "CCM",
+    "label": "Aeroporto Diomício Freitas",
+    "city": "Criciuma"
+  },
+  {
+    "value": "CCX",
+    "label": "Aeroporto Cáceres",
+    "city": "Caceres"
+  },
+  {
+    "value": "CDJ",
+    "label": "Aeroporto Conceição do Araguaia",
+    "city": "Conceicao Do Araguaia"
+  },
+  {
+    "value": "CFB",
+    "label": "Aeroporto Cabo Frio",
+    "city": "Cabo Frio"
+  },
+  {
+    "value": "CFC",
+    "label": "Aeroporto Caçador",
+    "city": "Cacador"
+  },
+  {
+    "value": "CFO",
+    "label": "Aeroporto Confresa",
+    "city": "Confresa"
+  },
+  {
+    "value": "CGB",
+    "label": "Aeroporto Marechal Rondon",
+    "city": "Cuiaba"
+  },
+  {
+    "value": "CGH",
+    "label": "Aeroporto Deputado Freitas Nobre - Congonhas",
+    "city": "Sao Paulo"
+  },
+  {
+    "value": "CGR",
+    "label": "Aeroporto Campo Grande",
+    "city": "Campo Grande"
+  },
+  {
+    "value": "CIZ",
+    "label": "Aeroporto Coari",
+    "city": "Coari"
+  },
+  {
+    "value": "CKS",
+    "label": "Aeroporto Carajás",
+    "city": "Parauapebas"
+  },
+  {
+    "value": "CLN",
+    "label": "Aeroporto Brig. Lysias Augusto Rodrigues",
+    "city": "Carolina"
+  },
+  {
+    "value": "CLV",
+    "label": "Aeroporto Nelson Ribeiro Guimarães",
+    "city": "Caldas Novas"
+  },
+  {
+    "value": "CMG",
+    "label": "Aeroporto Internacional Corumbá",
+    "city": "Corumba"
+  },
+  {
+    "value": "CMP",
+    "label": "Aeroporto Santana do Araguaia",
+    "city": "Santana do Araguaia"
+  },
+  {
+    "value": "CNF",
+    "label": "Aeroporto Internacional Tancredo Neves",
+    "city": "Belo Horizonte"
+  },
+  {
+    "value": "CPQ",
+    "label": "Aeroporto Amarais",
+    "city": "Campinas"
+  },
+  {
+    "value": "CPV",
+    "label": "Aeroporto Presidente João Suassuna",
+    "city": "Campina Grande"
+  },
+  {
+    "value": "CRQ",
+    "label": "Aeroporto Caravelas",
+    "city": "Caravelas"
+  },
+  {
+    "value": "CWB",
+    "label": "Aeroporto Afonso Pena",
+    "city": "Curitiba"
+  },
+  {
+    "value": "CXJ",
+    "label": "Aeroporto Hugo Cantergiani Regional",
+    "city": "Caxias Do Sul"
+  },
+  {
+    "value": "CZS",
+    "label": "Aeroporto Cruzeiro do Sul",
+    "city": "Cruzeiro do Sul"
+  },
+  {
+    "value": "DIQ",
+    "label": "Aeroporto Brigadeiro Cabral",
+    "city": "Divinopolis"
+  },
+  {
+    "value": "DMT",
+    "label": "Aeroporto Diamantino",
+    "city": "Diamantino"
+  },
+  {
+    "value": "DOU",
+    "label": "Aeroporto Dourados",
+    "city": "Dourados"
+  },
+  {
+    "value": "DTI",
+    "label": "Aeroporto Diamantina",
+    "city": "Diamantina"
+  },
+  {
+    "value": "ERM",
+    "label": "Aeroporto Erechim",
+    "city": "Erechim"
+  },
+  {
+    "value": "ERN",
+    "label": "Aeroporto Eirunepé",
+    "city": "Eirunepe"
+  },
+  {
+    "value": "FBA",
+    "label": "Aeroporto Fonte Boa",
+    "city": "Fonte Boa"
+  },
+  {
+    "value": "FBE",
+    "label": "Aeroporto Francisco Beltrão",
+    "city": "Francisco Beltrao"
+  },
+  {
+    "value": "FEN",
+    "label": "Aeroporto Fernando de Noronha",
+    "city": "Fernando Do Noronha"
+  },
+  {
+    "value": "FLB",
+    "label": "Aeroporto Cangapara",
+    "city": "Floriano"
+  },
+  {
+    "value": "FLN",
+    "label": "Aeroporto Internacional Hercílio Luz",
+    "city": "Florianopolis"
+  },
+  {
+    "value": "FOR",
+    "label": "Aeroporto Internacional Pinto Martins",
+    "city": "Fortaleza"
+  },
+  {
+    "value": "FRC",
+    "label": "Aeroporto Franca",
+    "city": "Franca"
+  },
+  {
+    "value": "GEL",
+    "label": "Aeroporto Santo Ângelo",
+    "city": "Santo Angelo"
+  },
+  {
+    "value": "GIG",
+    "label": "Aeroporto Internacional Rio Galeão – Tom Jobim  \t",
+    "city": "Rio De Janeiro"
+  },
+  {
+    "value": "GNM",
+    "label": "Aeroporto Guanambi",
+    "city": "Guanambi"
+  },
+  {
+    "value": "GPB",
+    "label": "Aeroporto Tancredo Thomas de Faria",
+    "city": "Guarapuava"
+  },
+  {
+    "value": "GRP",
+    "label": "Aeroporto Gurupi",
+    "city": "Gurupi"
+  },
+  {
+    "value": "GRU",
+    "label": "Aeroporto Internacional Guarulhos – Governador André Franco Montoro",
+    "city": "Sao Paulo"
+  },
+  {
+    "value": "GUZ",
+    "label": "Aeroporto Guarapari",
+    "city": "Guarapari"
+  },
+  {
+    "value": "GVR",
+    "label": "Aeroporto Coronel Altino Machado de Oliveira",
+    "city": "Governador Valadares"
+  },
+  {
+    "value": "GYN",
+    "label": "Aeroporto Santa Genoveva",
+    "city": "Goiania"
+  },
+  {
+    "value": "HUW",
+    "label": "Aeroporto Humaitá",
+    "city": "Humaita"
+  },
+  {
+    "value": "IGU",
+    "label": "Aeroporto Internacional Cataratas",
+    "city": "Foz Do Iguacu"
+  },
+  {
+    "value": "IMP",
+    "label": "Aeroporto Prefeito Renato Moreira",
+    "city": "Imperatriz"
+  },
+  {
+    "value": "IOS",
+    "label": "Aeroporto Bahia – Jorge Amado",
+    "city": "Ilheus"
+  },
+  {
+    "value": "IPN",
+    "label": "Aeroporto Usiminas",
+    "city": "Ipatinga"
+  },
+  {
+    "value": "IRZ",
+    "label": "Aeroporto Tapuruquara",
+    "city": "Santa Isabel do Rio Negro"
+  },
+  {
+    "value": "ITB",
+    "label": "Aeroporto Itaituba",
+    "city": "Itaituba"
+  },
+  {
+    "value": "ITP",
+    "label": "Aeroporto Itaperuna \t",
+    "city": "Itaperuna"
+  },
+  {
+    "value": "IZA",
+    "label": "Aeroporto Zona da Mata Regional",
+    "city": "Juiz de Fora"
+  },
+  {
+    "value": "JCB",
+    "label": "Aeroporto Santa Terezinha",
+    "city": "Joacaba"
+  },
+  {
+    "value": "JDF",
+    "label": "Aeroporto Francisco de Assis",
+    "city": "Juiz De Fora"
+  },
+  {
+    "value": "JDO",
+    "label": "Aeroporto Orlando Bezerra de Menezes",
+    "city": "Juazeiro Do Norte"
+  },
+  {
+    "value": "JIA",
+    "label": "Aeroporto Juína",
+    "city": "Juina"
+  },
+  {
+    "value": "JJD",
+    "label": "Aeroporto Comandante Ariston Pessoa",
+    "city": "Jericoacoara"
+  },
+  {
+    "value": "JOI",
+    "label": "Aeroporto Lauro Carneiro de Loyola",
+    "city": "Joinville"
+  },
+  {
+    "value": "JPA",
+    "label": "Aeroporto Internacional Presidente Castro Pinto",
+    "city": "Joao Pessoa"
+  },
+  {
+    "value": "JPR",
+    "label": "Aeroporto Ji-Paraná",
+    "city": "Ji-Parana"
+  },
+  {
+    "value": "JRN",
+    "label": "Aeroporto Juruena",
+    "city": "Juruena"
+  },
+  {
+    "value": "JTC",
+    "label": "Aeroporto Bauru – Arealva",
+    "city": "Bauru"
+  },
+  {
+    "value": "JUA",
+    "label": "Aeroporto Inácio Luís do Nascimento \t",
+    "city": "Juara"
+  },
+  {
+    "value": "LAZ",
+    "label": "Aeroporto Bom Jesus da Lapa",
+    "city": "Bom Jesus Da Lapa"
+  },
+  {
+    "value": "LBR",
+    "label": "Aeroporto Lábrea",
+    "city": "Labrea"
+  },
+  {
+    "value": "LDB",
+    "label": "Aeroporto Governador José Richa",
+    "city": "Londrina"
+  },
+  {
+    "value": "LEC",
+    "label": "Aeroporto Coronel Horácio de Mattos",
+    "city": "Lençóis"
+  },
+  {
+    "value": "LIP",
+    "label": "Aeroporto Lins",
+    "city": "Lins"
+  },
+  {
+    "value": "LVR",
+    "label": "Aeroporto Fazenda Colen",
+    "city": "Lucas do Rio Verde"
+  },
+  {
+    "value": "MAB",
+    "label": "Aeroporto João Correa da Rocha",
+    "city": "Maraba"
+  },
+  {
+    "value": "MAO",
+    "label": "Aeroporto Internacional Eduardo Gomes",
+    "city": "Manaus"
+  },
+  {
+    "value": "MBZ",
+    "label": "Aeroporto Maués",
+    "city": "Maues"
+  },
+  {
+    "value": "MCP",
+    "label": "Aeroporto Alberto Alcolumbre",
+    "city": "Macapa"
+  },
+  {
+    "value": "MCZ",
+    "label": "Aeroporto Zumbi dos Palmares",
+    "city": "Maceio"
+  },
+  {
+    "value": "MEA",
+    "label": "Aeroporto Macaé",
+    "city": "Macaé"
+  },
+  {
+    "value": "MGF",
+    "label": "Aeroporto Regional de Maringá – Sílvio Nane Junior",
+    "city": "Maringa"
+  },
+  {
+    "value": "MII",
+    "label": "Aeroporto Frank Miloye Milenkowichi–Marília State",
+    "city": "Marília"
+  },
+  {
+    "value": "MNX",
+    "label": "Aeroporto Manicoré",
+    "city": "Manicore"
+  },
+  {
+    "value": "MOC",
+    "label": "Aeroporto Mário Ribeiro \t",
+    "city": "Montes Claros"
+  },
+  {
+    "value": "MQH",
+    "label": "Aeroporto Minaçu",
+    "city": "Minacu"
+  },
+  {
+    "value": "MVF",
+    "label": "Aeroporto Dix-Sept Rosado \t",
+    "city": "Mocord"
+  },
+  {
+    "value": "MVS",
+    "label": "Aeroporto Mucuri",
+    "city": "Mucuri"
+  },
+  {
+    "value": "NAT",
+    "label": "Aeroporto Internacional Governador Aluízio Alves",
+    "city": "Natal"
+  },
+  {
+    "value": "NVP",
+    "label": "Aeroporto Novo Aripuanã",
+    "city": "Novo Aripuana"
+  },
+  {
+    "value": "NVT",
+    "label": "Aeroporto Internacional Ministro Victor Konder",
+    "city": "Navegantes"
+  },
+  {
+    "value": "OAL",
+    "label": "Aeroporto Cacoal",
+    "city": "Cacoal"
+  },
+  {
+    "value": "OIA",
+    "label": "Aeroporto Ourilândia do Norte",
+    "city": "Ourilandia do Norte"
+  },
+  {
+    "value": "OLC",
+    "label": "Aeroporto Senadora Eunice Micheles",
+    "city": "Sao Paulo de Olivenca"
+  },
+  {
+    "value": "OPS",
+    "label": "Aeroporto Presidente João Batista Figueiredo",
+    "city": "Sinop"
+  },
+  {
+    "value": "ORX",
+    "label": "Aeroporto Oriximiná",
+    "city": "Oriximina"
+  },
+  {
+    "value": "PAV",
+    "label": "Aeroporto Paulo Afonso",
+    "city": "Paulo Alfonso"
+  },
+  {
+    "value": "PCS",
+    "label": "Aeroporto Picos",
+    "city": "Picos"
+  },
+  {
+    "value": "PET",
+    "label": "Aeroporto Internacional João Simões Lopes Neto",
+    "city": "Pelotas"
+  },
+  {
+    "value": "PFB",
+    "label": "Aeroporto Lauro Kurtz",
+    "city": "Passo Fundo"
+  },
+  {
+    "value": "PIN",
+    "label": "Aeroporto Parintins",
+    "city": "Parintins"
+  },
+  {
+    "value": "PLL",
+    "label": "Aeroporto Ponta Pelada",
+    "city": "Manaus"
+  },
+  {
+    "value": "PLU",
+    "label": "Aeroporto Pampulha – Carlos Drummond de Andrade",
+    "city": "Belo Horizonte"
+  },
+  {
+    "value": "PMG",
+    "label": "Aeroporto Ponta Porã",
+    "city": "Ponta Pora"
+  },
+  {
+    "value": "PMW",
+    "label": "Aeroporto Brigadeiro Lysias Rodrigues",
+    "city": "Palmas"
+  },
+  {
+    "value": "PNB",
+    "label": "Aeroporto Porto Nacional",
+    "city": "Porto Nacional"
+  },
+  {
+    "value": "PNZ",
+    "label": "Aeroporto Senador Nilo Coelho",
+    "city": "Petrolina"
+  },
+  {
+    "value": "POA",
+    "label": "Aeroporto Salgado Filho",
+    "city": "Porto Alegre"
+  },
+  {
+    "value": "POJ",
+    "label": "Aeroporto Patos de Minas",
+    "city": "Patos de Minas"
+  },
+  {
+    "value": "POO",
+    "label": "Aeroporto Poços de Caldas – Embaixador Walther Moreira Salles",
+    "city": "Pocos De Caldas"
+  },
+  {
+    "value": "PPB",
+    "label": "Aeroporto Presidente Prudente",
+    "city": "Presidente Prudente"
+  },
+  {
+    "value": "PPY",
+    "label": "Aeroporto Pouso Alegre",
+    "city": "Pouso Alegre"
+  },
+  {
+    "value": "PVH",
+    "label": "Aeroporto Governador Jorge Teixeira de Oliveira",
+    "city": "Porto Velho"
+  },
+  {
+    "value": "QBX",
+    "label": "Aeroporto Sobral",
+    "city": "Sobral"
+  },
+  {
+    "value": "QCJ",
+    "label": "Aeroporto Botucatu – Tancredo de Almeida Neves",
+    "city": "Botucatu"
+  },
+  {
+    "value": "QHP",
+    "label": "Aeroporto Base de Aviação de Taubaté",
+    "city": "Taubaté"
+  },
+  {
+    "value": "QNV",
+    "label": "Aeroporto Aeroclube",
+    "city": "Nova Iguacu"
+  },
+  {
+    "value": "QPS",
+    "label": "Aeroporto Campo Fontenelle",
+    "city": "Piracununga"
+  },
+  {
+    "value": "QSC",
+    "label": "Aeroporto São Carlos \t",
+    "city": "Sao Carlos"
+  },
+  {
+    "value": "RAO",
+    "label": "Aeroporto Leite Lopes \t",
+    "city": "Ribeirao Preto"
+  },
+  {
+    "value": "RBB",
+    "label": "Aeroporto Borba",
+    "city": "Borba"
+  },
+  {
+    "value": "RBR",
+    "label": "Aeroporto Plácido de Castro",
+    "city": "Rio Branco"
+  },
+  {
+    "value": "RDC",
+    "label": "Aeroporto Redenção",
+    "city": "Redencao"
+  },
+  {
+    "value": "REC",
+    "label": "Aeroporto Internacional Guararapes – Gilberto Freyre",
+    "city": "Recife"
+  },
+  {
+    "value": "RIA",
+    "label": "Aeroporto Santa Maria",
+    "city": "Santa Maria"
+  },
+  {
+    "value": "ROO",
+    "label": "Aeroporto Maestro Marinho Franco",
+    "city": "Rondonopolis"
+  },
+  {
+    "value": "RVD",
+    "label": "Aeroporto General Leite de Castro \t",
+    "city": "Rio Verde"
+  },
+  {
+    "value": "SDU",
+    "label": "Aeroporto Santos Dumont",
+    "city": "Rio De Janeiro"
+  },
+  {
+    "value": "SFK",
+    "label": "Aeroporto Soure",
+    "city": "Soure"
+  },
+  {
+    "value": "SJK",
+    "label": "Aeroporto Professor Urbano Ernesto Stumpf",
+    "city": "Sao Jose Dos Campos"
+  },
+  {
+    "value": "SJL",
+    "label": "Aeroporto São Gabriel da Cachoeira",
+    "city": "Sao Gabriel"
+  },
+  {
+    "value": "SJP",
+    "label": "Aeroporto Prof. Eribelto Manoel Reino State",
+    "city": "Sao Jose Do Rio Preto"
+  },
+  {
+    "value": "SLZ",
+    "label": "Aeroporto Internacional Marechal Cunha Machado",
+    "city": "Sao Luis"
+  },
+  {
+    "value": "SOD",
+    "label": "Aeroporto Sorocaba",
+    "city": "Sorocaba"
+  },
+  {
+    "value": "SQX",
+    "label": "Aeroporto São Miguel do Oeste",
+    "city": "Sao Miguel do Oeste"
+  },
+  {
+    "value": "SRA",
+    "label": "Aeroporto Santa Rosa",
+    "city": "Santa Rosa"
+  },
+  {
+    "value": "SSA",
+    "label": "Aeroporto Internacional Deputado Luiz Eduardo Magalhães",
+    "city": "Salvador"
+  },
+  {
+    "value": "SSZ",
+    "label": "Aeroporto Base Aérea de Santos",
+    "city": "Santos"
+  },
+  {
+    "value": "STM",
+    "label": "Aeroporto Maestro Wilson Fonseca",
+    "city": "Santarem"
+  },
+  {
+    "value": "STU",
+    "label": "Aeroporto Santa Cruz",
+    "city": "Rio De Janeiro"
+  },
+  {
+    "value": "STZ",
+    "label": "Aeroporto Santa Terezinha",
+    "city": "Santa Terezinha"
+  },
+  {
+    "value": "SXO",
+    "label": "Aeroporto São Félix do Araguaia",
+    "city": "Sao Felix do Araguaia"
+  },
+  {
+    "value": "SXX",
+    "label": "Aeroporto São Félix do Xingu",
+    "city": "Sao Felix do Xingu"
+  },
+  {
+    "value": "TBT",
+    "label": "Aeroporto Tabatinga",
+    "city": "Tabatinga"
+  },
+  {
+    "value": "TFF",
+    "label": "Aeroporto Tefé",
+    "city": "Tefe"
+  },
+  {
+    "value": "TFL",
+    "label": "Aeroporto Juscelino Kubitscheck",
+    "city": "Teofilo Otoni"
+  },
+  {
+    "value": "THE",
+    "label": "Aeroporto Senador Petrônio Portela",
+    "city": "Teresina"
+  },
+  {
+    "value": "TJL",
+    "label": "Aeroporto Plínio Alarcom",
+    "city": "Tres Lagoas"
+  },
+  {
+    "value": "TMT",
+    "label": "Aeroporto Trombetas",
+    "city": "Oriximina"
+  },
+  {
+    "value": "TOW",
+    "label": "Aeroporto Toledo",
+    "city": "Toledo"
+  },
+  {
+    "value": "TUR",
+    "label": "Aeroporto Tucuruí",
+    "city": "Tucurui"
+  },
+  {
+    "value": "UBA",
+    "label": "Aeroporto Mário de Almeida Franco",
+    "city": "Uberaba"
+  },
+  {
+    "value": "UBT",
+    "label": "Aeroporto Ubatuba",
+    "city": "Ubatuba"
+  },
+  {
+    "value": "UDI",
+    "label": "Aeroporto Ten. Cel. Aviador César Bombonato",
+    "city": "Uberlandia"
+  },
+  {
+    "value": "UMU",
+    "label": "Aeroporto Umuarama",
+    "city": "Umuarama"
+  },
+  {
+    "value": "UNA",
+    "label": "Aeroporto Hotel Transamérica",
+    "city": "Una"
+  },
+  {
+    "value": "URG",
+    "label": "Aeroporto Rubem Berta",
+    "city": "Uruguaiana"
+  },
+  {
+    "value": "VAG",
+    "label": "Aeroporto Major Brigadeiro Trompowsky",
+    "city": "Varginha"
+  },
+  {
+    "value": "VAL",
+    "label": "Aeroporto Valença",
+    "city": "Valenca"
+  },
+  {
+    "value": "VCP",
+    "label": "Aeroporto Internacional Viracopos",
+    "city": "Campinas"
+  },
+  {
+    "value": "VDC",
+    "label": "Aeroporto Vitória da Conquista",
+    "city": "Vitória Da Conquista"
+  },
+  {
+    "value": "VIX",
+    "label": "Aeroporto Eurico de Aguiar Salles",
+    "city": "Vitoria"
+  },
+  {
+    "value": "VLP",
+    "label": "Aeroporto Vila Rica",
+    "city": "Vila Rica"
+  },
+  {
+    "value": "XAP",
+    "label": "Aeroporto Serafin Enoss Bertaso",
+    "city": "Chapeco"
+  },
+  {
+    "value": "SAO",
+    "label": "Todos",
+    "city": "Sao Paulo"
+  },
+  {
+    "value": "BHZ",
+    "label": "Todos",
+    "city": "Belo Horizonte"
+  },
+  {
+    "value": "RIO",
+    "label": "Todos",
+    "city": "Rio De Janeiro"
+  }
+]

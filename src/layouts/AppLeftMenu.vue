@@ -1,14 +1,14 @@
 <template>
   <q-layout-drawer
     v-model="drawerState"
-    width="250"
+    width="240"
     id='app-left-menu'
   >
     <div id="app-brand">
       Quasar
     </div>
 
-    <vue-perfect-scrollbar class="scroll-area" :settings="scrollSettings">
+    <q-scroll-area style="height: 100%">
       <q-list
         no-border
         inset-delimiter
@@ -31,20 +31,16 @@
         </template>
 
       </q-list>
-    </vue-perfect-scrollbar>
+    </q-scroll-area>
   </q-layout-drawer>
 </template>
 
 <script>
 import menu from '../statics/menu'
-import VuePerfectScrollbar from 'vue-perfect-scrollbar'
 
 export default {
   data: () => ({
-    menu: menu,
-    scrollSettings: {
-      maxScrollbarLength: 160
-    }
+    menu: menu
   }),
   computed: {
     drawerState: {
@@ -55,9 +51,6 @@ export default {
         this.$store.commit('app/updateDrawerState', this.$q.platform.is.desktop)
       }
     }
-  },
-  components: {
-    VuePerfectScrollbar
   }
 }
 </script>
@@ -67,7 +60,6 @@ export default {
 
   #app-left-menu
     overflow hidden
-    width 250px
     background $secondary
     box-shadow 0 0 10px 0 rgba(0,0,0,.5)
     #app-brand
@@ -128,9 +120,4 @@ export default {
     .q-list-header
       color $secondary_mega_light
       text-transform: uppercase
-    .scroll-area
-      height: calc(100vh - 48px)
-      overflow: auto
-      .ps__scrollbar-y-rail
-        background transparent !important
 </style>
