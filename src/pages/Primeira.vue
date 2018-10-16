@@ -17,13 +17,12 @@
             ]"/>
             </div>
           </div>
-          <div class="row gutter-sm">
+          <div class="row gutter-md">
             <div class="col-xs-12 col-sm-6">
               <q-search no-icon :after="[{icon: 'location_on', handler () {}}]" inverted v-model="from" float-label="Sair de" placeholder="Cidade ou Aeroporto">
                 <q-autocomplete
                   :value-field="v => `${ v.label } (${ v.value })`"
                   @search="search"
-                  class="text-primary"
                 />
               </q-search>
             </div>
@@ -32,20 +31,19 @@
                 <q-autocomplete
                   :value-field="v => `${ v.label } (${ v.value })`"
                   @search="search"
-                  class="text-primary"
                 />
               </q-search>
             </div>
           </div>
-          <div class="row gutter-sm q-pt-md">
+          <div class="row gutter-md q-pt-md">
             <div v-bind:class="[trip_type === 'OW' ? 'col-sm-6' : 'col-sm-4']" class="col-xs-12">
-              <q-datetime :min="today" format="DD-MM-YYYY" inverted v-model="departure_date" :after="[{icon: 'date_range', handler () {}}]" float-label="Partida" />
+              <q-datetime :min="today" format="DD-MM-YYYY" inverted v-model="departure_date" :after="[{icon: 'fa la la-calendar', handler () {}}]" float-label="Partida" />
             </div>
             <div v-show="trip_type === 'RT'" class="col-xs-12 col-sm-4">
               <q-datetime :min="departure_date || today" format="DD-MM-YYYY" inverted v-model="return_date" :after="[{icon: 'date_range', handler () {}}]" float-label="Retorno" />
             </div>
             <div v-bind:class="[trip_type === 'OW' ? 'col-sm-6' : 'col-sm-4']" class="col-xs-12">
-              <q-btn color="primary" @click="send" no-caps id="trip-submit" icon="search" class="full-width full-height" label="Pesquisar Passagem" />
+              <q-btn color="primary" @click="send" no-caps id="trip-submit" class="full-width full-height" label="Pesquisar Passagem" />
             </div>
           </div>
         </div>
@@ -100,20 +98,31 @@ export default {
 
   #page-block
     margin: 10px 35px
-    background #fff
+    background $secondary
     box-shadow 0 4px 15px 0 $secondary_ultra_light
-    border-radius 0
+    border-radius 4px
     .q-btn
-      border-radius 2px
+      border-radius 4px
+      box-shadow none
+      font-weight:700
+      font-size 20px
     .q-option-label
-      color $secondary_light
+      color $secondary_ultra_light
+      font-weight 600
     .q-input, .q-datetime-input
-      background #fff !important
-      color $primary !important
-      box-shadow 3px 3px 0px 0px #ccc
-      border-radius 2px
-      font-weight:600
-      border 1px solid $secondary_mega_light
-      .q-if-label, .q-if-control
+      background $secondary_light !important
+      color $secondary_ultra_light !important
+      box-shadow none
+      border-radius 4px
+      font-weight 600
+      border 2px solid transparent
+      &.q-if-focused
+        border-color $primary
+      .q-if-label
         color $secondary_mega_light
+        font-weight 500
+      .q-if-control
+        color $primary
+        &:nth-of-type(2)
+          display none
 </style>
