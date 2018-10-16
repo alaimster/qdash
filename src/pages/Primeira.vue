@@ -19,7 +19,7 @@
           </div>
           <div class="row gutter-md">
             <div class="col-xs-12 col-sm-6">
-              <q-search no-icon :after="[{icon: 'location_on', handler () {}}]" inverted v-model="from" float-label="Sair de" placeholder="Cidade ou Aeroporto">
+              <q-search no-icon :after="[{icon: 'icon-la la la-map-marker', handler () {}}]" inverted v-model="from" float-label="Sair de" placeholder="Cidade ou Aeroporto">
                 <q-autocomplete
                   :value-field="v => `${ v.label } (${ v.value })`"
                   @search="search"
@@ -27,7 +27,7 @@
               </q-search>
             </div>
             <div class="col-xs-12 col-sm-6">
-              <q-search no-icon :after="[{icon: 'location_on', handler () {}}]" inverted v-model="to" float-label="Ir para" placeholder="Cidade ou Aeroporto">
+              <q-search no-icon :after="[{icon: 'icon-la la la-map-marker', handler () {}}]" inverted v-model="to" float-label="Ir para" placeholder="Cidade ou Aeroporto">
                 <q-autocomplete
                   :value-field="v => `${ v.label } (${ v.value })`"
                   @search="search"
@@ -37,10 +37,10 @@
           </div>
           <div class="row gutter-md q-pt-md">
             <div v-bind:class="[trip_type === 'OW' ? 'col-sm-6' : 'col-sm-4']" class="col-xs-12">
-              <q-datetime :min="today" format="DD-MM-YYYY" inverted v-model="departure_date" :after="[{icon: 'fa la la-calendar', handler () {}}]" float-label="Partida" />
+              <q-datetime :min="today" format="DD-MM-YYYY" inverted v-model="departure_date" :after="[{icon: 'icon-la la la-calendar', handler () {}}]" float-label="Partida" />
             </div>
             <div v-show="trip_type === 'RT'" class="col-xs-12 col-sm-4">
-              <q-datetime :min="departure_date || today" format="DD-MM-YYYY" inverted v-model="return_date" :after="[{icon: 'date_range', handler () {}}]" float-label="Retorno" />
+              <q-datetime :min="departure_date || today" format="DD-MM-YYYY" inverted v-model="return_date" :after="[{icon: 'icon-la la la-calendar', handler () {}}]" float-label="Retorno" />
             </div>
             <div v-bind:class="[trip_type === 'OW' ? 'col-sm-6' : 'col-sm-4']" class="col-xs-12">
               <q-btn color="primary" @click="send" no-caps id="trip-submit" class="full-width full-height" label="Pesquisar Passagem" />
@@ -122,6 +122,7 @@ export default {
         color $secondary_mega_light
         font-weight 500
       .q-if-control
+        font-size 24px !important
         color $primary
         &:nth-of-type(2)
           display none

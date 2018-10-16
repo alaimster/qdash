@@ -7,7 +7,7 @@ const Menu = [
   },
   {
     title: 'Chat',
-    icon: 'mdi-message-outline',
+    icon: 'icon-la la la-comments',
     target: '_blank',
     name: 'Chat'
   },
@@ -15,7 +15,7 @@ const Menu = [
     title: 'Inbox',
     name: 'Mail',
     target: '_blank',
-    icon: 'mdi-email-outline'
+    icon: 'icon-la la la-envelope-o'
   },
   {
     title: 'Media',
@@ -64,7 +64,7 @@ const Menu = [
   {
     title: 'Pickers',
     component: 'picker',
-    icon: 'filter_vintage',
+    icon: 'icon-la la la-cog',
     items: [
       { name: 'timepicker', title: 'Timepicker', component: 'pickers/timepicker' },
       { name: 'datepicker', title: 'Datepicker', component: 'pickers/datepicker' }
@@ -91,7 +91,7 @@ const Menu = [
   {
     title: 'Forms & Controls',
     component: 'forms',
-    icon: 'edit',
+    icon: 'icon-la la la-pencil',
     items: [
       { name: 'basic', title: 'General', component: 'components/basic-forms' },
       { name: 'selects', title: 'Selects', badge: 'new', component: 'components/selects' },

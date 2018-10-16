@@ -80,6 +80,7 @@ export default {
         min-width: 24px !important;
         .q-icon
           font-size 18px !important
+          line-height 18px !important
       .q-item-label
         font-size 16px !important
         font-weight 300
