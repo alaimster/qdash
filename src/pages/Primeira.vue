@@ -43,7 +43,7 @@
               <q-datetime :min="departure_date || today" format="DD-MM-YYYY" inverted v-model="return_date" :after="[{icon: 'icon-la la la-calendar', handler () {}}]" float-label="Retorno" />
             </div>
             <div v-bind:class="[trip_type === 'OW' ? 'col-sm-6' : 'col-sm-4']" class="col-xs-12">
-              <q-btn color="primary" @click="send" no-caps id="trip-submit" class="full-width full-height" label="Pesquisar Passagem" />
+              <q-btn color="primary" @click="send" no-caps id="trip-submit" class="full-width full-height" label="PESQUISAR PASSAGEM" />
             </div>
           </div>
         </div>
@@ -104,25 +104,33 @@ export default {
     .q-btn
       border-radius 4px
       box-shadow none
-      font-weight:700
-      font-size 20px
+      font-weight:400
+      font-size 18px
+      box-shadow 3px 3px 0px 0px $secondary_dark
+      text-shadow: 1px 1px 0px $secondary_dark;
     .q-option-label
       color $secondary_ultra_light
-      font-weight 600
+      font-weight 400
     .q-input, .q-datetime-input
       background $secondary_light !important
       color $secondary_ultra_light !important
       box-shadow none
       border-radius 4px
-      font-weight 600
+      font-weight 400
       border 2px solid transparent
+      padding-left: 14px;
+      padding-right: 14px;
+      box-shadow 3px 3px 0px 0px $secondary_dark
       &.q-if-focused
         border-color $primary
+      .q-if-label-above
+        line-height 20px !important
       .q-if-label
         color $secondary_mega_light
         font-weight 500
+        line-height 26px
       .q-if-control
-        font-size 24px !important
+        font-size 28px !important
         color $primary
         &:nth-of-type(2)
           display none
